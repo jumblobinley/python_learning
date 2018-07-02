@@ -16,8 +16,6 @@ print (math.floor(2.8))
 print()
 
 
-
-
 print (sys.modules)
 
 module_list = sys.modules
