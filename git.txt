@@ -1,0 +1,41 @@
+github.com
+jumblobinley
+jumblobinley@gmail.com
+Ant...99@
+
+mkdir my_git_project
+cd my_git_project
+
+git init
+git config --global user.name 'Shaumik'
+git config --global user.email 'sd@gmail.com'
+git config --global color.ui 'auto'
+
+git status
+git add <my_file>
+git add myfile2 myfile3
+
+git commit -m "My first commit"
+git diff
+
+//add the updated files back into the repo
+// waiting to commit the staged files
+git add -u
+git commit -m "My second commit"
+
+//add remote origin
+git remote add origin https://github.com/jumblobinley/python_learning
+
+//pulling from remote project - only the readme is in the repo at this time
+git pull https://github.com/jumblobinley/python_learning master
+
+
+//short form
+
+make code changes
+
+git add -u
+git commit -m "I did some work"
+git push -u 
+
+
