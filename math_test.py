@@ -12,6 +12,10 @@ print ( math.log(10) )
 
 print ( math.pow(2,8) )
 
+print (math.floor(2.8))
+print()
+
+
 
 
 print (sys.modules)
