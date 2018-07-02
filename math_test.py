@@ -12,6 +12,13 @@ print ( math.log(10) )
 
 print ( math.pow(2,8) )
 
+
+
 print (sys.modules)
+
+module_list = sys.modules
+
+for mods in module_list:
+    print ("mod = %s " % mods)
 
 
